@@ -1,4 +1,4 @@
-# Image_Spatial_Frequency_Filtering_MatLab
+# Image_Spatial_Filtering_MatLab
 This project aims to handle image with Gaussian noise or speckle noise with Gaussian filter and Median filter. The images used can be found in ["lib-gn.jpg"](https://github.com/StephanieMussi/Image_Spatial_Frequency_Filtering_MatLab/blob/main/lib-gn.jpg) and ["lib-sp.jpg"](https://github.com/StephanieMussi/Image_Spatial_Frequency_Filtering_MatLab/blob/main/lib-sp.jpg).  
 
 ## Gaussian filtering
