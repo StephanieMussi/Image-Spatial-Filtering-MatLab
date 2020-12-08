@@ -27,7 +27,7 @@ The filters are shown as below:
 <img src = "https://github.com/StephanieMussi/Image_Spatial_Frequency_Filtering_MatLab/blob/main/Figures/gaus2.png" width = 600 height = 309>  
 
 
-__Second approach__
+__Second approach__  
 This uses _fspecial_ function in MATLAB Image Processing Toolbox.  
 ```matlab
 h1 = fspecial('gaussian',5, 1);
@@ -38,7 +38,7 @@ mesh(h2);
 
 
 The image "lib-gn.jpg" is read and displayed:  
-<img src = "https://github.com/StephanieMussi/Image_Spatial_Frequency_Filtering_MatLab/blob/main/lib_gn.jpg" width = 544 height = 365>  
+<img src = "https://github.com/StephanieMussi/Image_Spatial_Frequency_Filtering_MatLab/blob/main/lib-gn.jpg" width = 544 height = 365>  
 As it can be seen, this image comes with additive Gaussian noise.  
 Then, the two filters are applied to the image.  
 
@@ -57,7 +57,7 @@ When σ (degree of smoothing) is larger, the noise reduction is more effective, 
 
 
 The image "lib-sp.jpg" is read and displayed:  
-<img src = "https://github.com/StephanieMussi/Image_Spatial_Frequency_Filtering_MatLab/blob/main/lib_sp.jpg" width = 544 height = 365>  
+<img src = "https://github.com/StephanieMussi/Image_Spatial_Frequency_Filtering_MatLab/blob/main/lib-sp.jpg" width = 544 height = 365>  
 As it can be seen, this image comes with additive speckle noise.  
 Then, the two filters are applied to the image.  
 
